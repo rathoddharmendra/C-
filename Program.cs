@@ -2,15 +2,18 @@
 
 namespace ControlFlow
 {
-    partial class Program
-    { 
+    class Program
+    {
         static void Main(string[] args)
         {
             //bool isGoldCustomer = true;
             //float price = (isGoldCustomer) ? 19.9f : 29.9f;
             //Console.WriteLine(price);
 
-            var season = Seasons.Autumn;
+
+
+
+            var season = Seasons.Monsoon;
 
             switch (season)
             {
@@ -21,8 +24,6 @@ namespace ControlFlow
                     Console.WriteLine("I glow and feel good in Winter");
                     break;
                 case Seasons.Monsoon:
-                    Console.WriteLine("I relate to Monsoon season from childhood and enjoy it");
-                    break;
                 case Seasons.Rainy:
                     Console.WriteLine("Rain drops on tin hood can be super cool time to spend doing nothing or busy with self-crafts");
                     break;
@@ -35,7 +36,7 @@ namespace ControlFlow
                 default:
                     Console.WriteLine("Some season is better than nothing");
                     break;
-
             }
         }
     }
+}

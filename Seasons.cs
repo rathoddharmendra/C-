@@ -1,7 +1,12 @@
 ﻿namespace ControlFlow
 {
-    partial class Program
+    public enum Seasons
     {
-        
+        Autumn,
+        Winter,
+        Summer,
+        Rainy,
+        Spring,
+        Monsoon
     }
 }
